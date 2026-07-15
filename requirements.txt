@@ -1,6 +1,0 @@
-fastapi [standard]
-uvicorn
-python-multipart
-aiofiles
-pytesseract
-sqlalchemy
