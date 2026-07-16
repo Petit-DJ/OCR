@@ -5,7 +5,7 @@ from files import get_file
 from files.get_file() import path
 
 
-pytesseract.pytesseract.tesseract_cmd = 'C:/Users/DJSuryansh-BroadwayI/AppData/Local/Programs/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:/Users/YOUR_PATH_HERE'
 
 image = get_file()
 image = Image.open(path)
