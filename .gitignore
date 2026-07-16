@@ -25,3 +25,8 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+
+#image files 
+*app/api/bazaars_of_hyderabad.webp
+*app/api/boh.jpg

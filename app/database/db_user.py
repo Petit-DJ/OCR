@@ -1,7 +1,7 @@
 from sqlalchemy.orm.session import Session
-from database.db_models import DbUser
+from app.database.db_models import DbUser
 from fastapi import Request
-from schemas import UserBase
+from app.schemas.schemas import UserBase
 
 # Create 
 def create_user(db: Session, request: UserBase):

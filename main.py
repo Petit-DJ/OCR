@@ -1,7 +1,8 @@
 from fastapi import FastAPI, APIRouter, Request, Response
-from router import user, files
-from database import db_models
-from database.database import engine
+from app.api import user
+from app.api import files
+from app.database import db_models
+from app.database.database import engine
 
 
 ramesh = FastAPI()
