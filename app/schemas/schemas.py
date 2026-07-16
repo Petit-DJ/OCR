@@ -8,7 +8,7 @@ class UserBase(BaseModel):
     # class config():
     #     orm_mode = True
 
-class Img (BaseModel):
-    img_id: int
-    extracted_text: str
-
+class OcrBase (BaseModel):
+    ocr_id: int
+    file_name: str
+    ocr_text: str
