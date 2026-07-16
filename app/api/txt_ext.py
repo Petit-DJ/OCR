@@ -16,7 +16,7 @@ from fastapi import APIRouter, File, UploadFile
 from PIL import Image
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = 'C:/Users/DJSuryansh-BroadwayI/AppData/Local/Programs/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:/Users/YOUR_PATH_HEE'
 
 
 

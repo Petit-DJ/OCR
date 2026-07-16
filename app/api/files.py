@@ -3,7 +3,7 @@ import shutil
 from PIL import Image
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = 'C:/Users/DJSuryansh-BroadwayI/AppData/Local/Programs/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:/Users/YOUR_PATH_HERE'
 
 router = APIRouter (
     prefix='/file',
