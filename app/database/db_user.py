@@ -13,3 +13,12 @@ def create_user(db: Session, request: UserBase):
     db.commit()
     db.refresh(new_user)
     return new_user
+
+
+# Returns all users in a json format. It's got magic, conv .py code into sqllite
+def get_all_users(db: Session):
+    return db.query(DbUser).all()
+
+#Returns 1 user
+def get_one_user(id: int, db: Session):
+    return db.query(DbUser).filter(DbUser.id == id).first()
